@@ -3,6 +3,9 @@ import { ShopContext } from '../context/ShopContext'
 import Title from '../components/Title';
 import { assets } from '../assets/assets';
 import CartTotal from '../components/CartTotal';
+import BestSeller from '../components/BestSeller'
+import OurPolicy from '../components/OurPolicy'
+import NewsletterBox from '../components/NewsletterBox'
 
 const Cart = () => {
 
@@ -71,7 +74,9 @@ const Cart = () => {
           </div>
         </div>
       </div>
-
+      <BestSeller/>
+      <OurPolicy/>
+      <NewsletterBox/>
     </div>
   )
 }

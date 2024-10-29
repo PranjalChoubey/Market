@@ -3,6 +3,9 @@ import { ShopContext } from '../context/ShopContext'
 import { assets } from '../assets/assets';
 import Title from '../components/Title';
 import ProductItem from '../components/ProductItem';
+import BestSeller from '../components/BestSeller';
+import OurPolicy from '../components/OurPolicy';
+import NewsletterBox from '../components/NewsletterBox';
 
 const Collection = () => {
 
@@ -83,6 +86,7 @@ const Collection = () => {
   },[sortType])
 
   return (
+    <div>
     <div className='flex flex-col sm:flex-row gap-1 sm:gap-10 pt-10 border-t'>
       
       {/* Filter Options */}
@@ -146,6 +150,10 @@ const Collection = () => {
       </div>
 
     </div>
+     <BestSeller/>
+     <OurPolicy/>
+     <NewsletterBox/>
+     </div>
   )
 }
 

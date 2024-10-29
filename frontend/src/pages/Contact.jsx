@@ -16,7 +16,7 @@ const Contact = () => {
         <div className='flex flex-col justify-center items-start gap-6'>
           <p className='font-semibold text-xl text-gray-600'>Our Store</p>
           <p className=' text-gray-500'>Basantpur Road <br /> Kaurin Bhatha, Rajnandgaon, CG</p>
-          <p className=' text-gray-500'>Tel: +91 8103679299 <br /> Email: contact@anmolkurti.com</p>
+          <p className=' text-gray-500'>Tel: +91 7587035699  <br /> Email: anmolkurtis24@gmail.com</p>
           <p className='font-semibold text-xl text-gray-600'>Reach us at Anmol Kurti's</p>
           <p className=' text-gray-500'>Learn more about our team and services.</p>
           <button className='border border-black px-8 py-4 text-sm hover:bg-black hover:text-white transition-all duration-500'>Explore Jobs</button>
